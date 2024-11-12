@@ -10,4 +10,8 @@ class BarangController extends Controller
     {
         return 'ya';
     }
+    public function getYahaha()
+    {
+        return 'yahahahahha';
+    }
 }
