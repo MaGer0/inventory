@@ -10,4 +10,9 @@ class InventoryController extends Controller
     {
         return 'memet botak';
     }
+
+    public function sayHello($name)
+    {
+        return "Hello {$name}";
+    }
 }
